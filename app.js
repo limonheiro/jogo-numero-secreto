@@ -45,7 +45,7 @@ function reiniciarJogo() {
     exibirMensagemInicial();
 }
 
-function geraNumeroAleatorio(maxNumber = 3) {
+function geraNumeroAleatorio(maxNumber = 10) {
     let numeroEscolhido = parseInt(Math.random() * maxNumber + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
